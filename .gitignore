@@ -7,6 +7,9 @@ datasets/
 *.png
 *.bmp
 *.webp
+# allow training result graphs
+!results/*.png
+
 # YOLO label files
 *.txt
 !requirements.txt
