@@ -1,0 +1,20 @@
+# PPE Detection - Class Definition
+# Dataset: Roboflow PPE Dataset (https://roboflow.com/)
+# Note: Training images are NOT included in this repository due to dataset license.
+#       Download the dataset from Roboflow and place it according to the paths below.
+
+path: ../datasets/ppe  # dataset root (set your own path)
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 5
+
+# Class names
+names:
+  0: Hardhat
+  1: NO-Hardhat
+  2: NO-Safety Vest
+  3: Person
+  4: Safety Vest

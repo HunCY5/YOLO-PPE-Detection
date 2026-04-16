@@ -1,0 +1,50 @@
+# =============================================
+# Dataset — DO NOT COMMIT (license restriction)
+# =============================================
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+# YOLO label files
+*.txt
+!requirements.txt
+
+# =============================================
+# Training outputs (large files)
+# Use Git LFS or GitHub Releases for .pt / .mlpackage
+# =============================================
+# Uncomment below if NOT using Git LFS:
+# *.pt
+# *.mlpackage
+# *.mlmodel
+# *.onnx
+
+# =============================================
+# Environment
+# =============================================
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+roboflow-env/
+*.egg-info/
+
+# =============================================
+# Training run artifacts (keep results/, exclude raw batches)
+# =============================================
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
+runs/**/labels.jpg
+
+# =============================================
+# OS / IDE
+# =============================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
